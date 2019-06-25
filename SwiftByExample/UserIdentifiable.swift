@@ -20,7 +20,12 @@ struct UserIdentifiable : View {
     
     var body: some View
     {
-        Text("\(user.id) \(user.firstName) \(user.lastName)")
+        VStack(alignment: .leading) {
+            Text("\(user.firstName)")
+                .font(.largeTitle)
+            Text("\(user.lastName)")
+        }
+        
     }
 }
 
