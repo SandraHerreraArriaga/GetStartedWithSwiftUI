@@ -15,8 +15,18 @@ struct TestDetailView : View {
         let user3 = UserIdent(id: 3, firstName: "Gloria", lastName: "Mendoza")
         let users = [user1, user2, user3]
         
-        return NavigationView{
-            List(users, rowContent: DetailView.init)
+        return NavigationView {
+//            List(users, rowContent: DetailView.init)
+//            .navigationBarTitle(Text("Users"))
+            
+            List(users) { user in
+                NavigationButton(destination: DetailView(selectedUser: user))
+                {
+                    List(users, rowContent: DetailView.init)
+                        .navigationBarTitle(Text("Users"))
+                }
+            }
+            
         }
     }
 }
