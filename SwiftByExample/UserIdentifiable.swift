@@ -31,7 +31,9 @@ struct UserIdentifiable_Previews : PreviewProvider {
         let user2 = UserIdent(id: 2, firstName: "Gloria", lastName: "Mendoza")
         let users = [user1, user2]
         
-        
+//        return List(users) {user in
+//            UserRow(user: user)
+//        }
         return List(users, rowContent: UserIdentifiable.init)
     }
 }
