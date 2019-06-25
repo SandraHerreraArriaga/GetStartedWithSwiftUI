@@ -13,6 +13,10 @@ struct Vstack : View {
         VStack {
             Text("Elemento de Vstack")
             Text("Elemento de Vstack")
+            Divider()
+            Text("Elemento de Vstack")
+            Spacer()
+            Text("Elemento de Vstack")
             Text("Elemento de Vstack")
         }
     }
