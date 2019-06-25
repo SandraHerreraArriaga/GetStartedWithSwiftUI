@@ -18,6 +18,7 @@
 		9A955B6B22C269D500A8B1A3 /* SwiftByExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B6A22C269D500A8B1A3 /* SwiftByExampleUITests.swift */; };
 		9A955B7922C26A8500A8B1A3 /* Vstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B7822C26A8400A8B1A3 /* Vstack.swift */; };
 		9A955B7F22C26EA900A8B1A3 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B7E22C26EA900A8B1A3 /* UserRow.swift */; };
+		9A955B8122C270FE00A8B1A3 /* UserIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9A955B6C22C269D500A8B1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A955B7822C26A8400A8B1A3 /* Vstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vstack.swift; sourceTree = "<group>"; };
 		9A955B7E22C26EA900A8B1A3 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentifiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +111,13 @@
 				9A955B7822C26A8400A8B1A3 /* Vstack.swift */,
 				9A955B4722C269D000A8B1A3 /* SceneDelegate.swift */,
 				9A955B4C22C269D000A8B1A3 /* ContentView.swift */,
+				9A955B7E22C26EA900A8B1A3 /* UserRow.swift */,
+				9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */,
 				9A955B4E22C269D500A8B1A3 /* Assets.xcassets */,
 				9A955B5322C269D500A8B1A3 /* LaunchScreen.storyboard */,
 				9A955B5622C269D500A8B1A3 /* Info.plist */,
 				9A955B4922C269D000A8B1A3 /* SwiftByExample.xcdatamodeld */,
 				9A955B5022C269D500A8B1A3 /* Preview Content */,
-				9A955B7E22C26EA900A8B1A3 /* UserRow.swift */,
 			);
 			path = SwiftByExample;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				9A955B4622C269CF00A8B1A3 /* AppDelegate.swift in Sources */,
 				9A955B4822C269D000A8B1A3 /* SceneDelegate.swift in Sources */,
+				9A955B8122C270FE00A8B1A3 /* UserIdentifiable.swift in Sources */,
 				9A955B7922C26A8500A8B1A3 /* Vstack.swift in Sources */,
 				9A955B4D22C269D000A8B1A3 /* ContentView.swift in Sources */,
 				9A955B7F22C26EA900A8B1A3 /* UserRow.swift in Sources */,
