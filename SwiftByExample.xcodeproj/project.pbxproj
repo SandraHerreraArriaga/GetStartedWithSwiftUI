@@ -19,6 +19,8 @@
 		9A955B7922C26A8500A8B1A3 /* Vstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B7822C26A8400A8B1A3 /* Vstack.swift */; };
 		9A955B7F22C26EA900A8B1A3 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B7E22C26EA900A8B1A3 /* UserRow.swift */; };
 		9A955B8122C270FE00A8B1A3 /* UserIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */; };
+		9A955B8322C277A300A8B1A3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B8222C277A300A8B1A3 /* DetailView.swift */; };
+		9A955B8522C2789F00A8B1A3 /* TestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A955B8422C2789F00A8B1A3 /* TestDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		9A955B7822C26A8400A8B1A3 /* Vstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vstack.swift; sourceTree = "<group>"; };
 		9A955B7E22C26EA900A8B1A3 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
 		9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentifiable.swift; sourceTree = "<group>"; };
+		9A955B8222C277A300A8B1A3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9A955B8422C2789F00A8B1A3 /* TestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				9A955B4C22C269D000A8B1A3 /* ContentView.swift */,
 				9A955B7E22C26EA900A8B1A3 /* UserRow.swift */,
 				9A955B8022C270FE00A8B1A3 /* UserIdentifiable.swift */,
+				9A955B8222C277A300A8B1A3 /* DetailView.swift */,
+				9A955B8422C2789F00A8B1A3 /* TestDetailView.swift */,
 				9A955B4E22C269D500A8B1A3 /* Assets.xcassets */,
 				9A955B5322C269D500A8B1A3 /* LaunchScreen.storyboard */,
 				9A955B5622C269D500A8B1A3 /* Info.plist */,
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A955B4622C269CF00A8B1A3 /* AppDelegate.swift in Sources */,
+				9A955B8522C2789F00A8B1A3 /* TestDetailView.swift in Sources */,
+				9A955B8322C277A300A8B1A3 /* DetailView.swift in Sources */,
 				9A955B4822C269D000A8B1A3 /* SceneDelegate.swift in Sources */,
 				9A955B8122C270FE00A8B1A3 /* UserIdentifiable.swift in Sources */,
 				9A955B7922C26A8500A8B1A3 /* Vstack.swift in Sources */,
